@@ -1,0 +1,47 @@
+/* This selector targets all class names containing col- */
+/* Brigita Cepulyte * the code bellow can be deleted as everything needs to be done in bootstrap
+ e.g. 12 represents 100 percent, 6-50 and so on. we just add md, sm, with numbers needed in order to create fluent trasition depending on a screen size/
+
+
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    /*[class*="col-"] {
+      width:50%;
+      text-align: center;
+      
+      
+    }
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /*
+    [class*="col-"] {
+      width: 60%;
+      text-align: center;
+      justify-content: center;
+     
+    }
+  }
+
+  
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    /*
+    [class*="col-"] {
+      width:70%;
+      text-align: center;
+      justify-content: center;
+      
+    }
+  }
+  */
+  
+ 
+  
+
+
+
+ 

@@ -1,0 +1,111 @@
+
+/*Kris Rooms page css*/
+
+.container {
+  display: grid;
+  padding: 1px;
+  margin-top: 20px;
+  grid-gap:30px;
+  
+}
+.corouselpic{
+  padding: 1px;
+  width: auto;
+  height: 400px;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 1;
+  }
+b{
+  font: bold;
+  font-size: 18px;
+}
+.banner{
+  margin-top: 10%;
+}
+.txt{
+  text-align: justify;
+  margin:auto;
+}
+
+.pic {
+  position: relative;
+  width: 100%;
+
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(251, 251, 251);
+  background: rgba(251, 251, 251, 0.8); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pic:hover .overlay {
+  opacity: 1;
+}
+h3{
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  font-size: 30px;
+  border-radius: 3px;
+  font-weight: 1;
+}
+h4{
+  font-size: 24px;
+  border-radius: 3px;
+  font-weight: 1;
+
+}
+li{
+  font-weight: 1;
+  font-size: 16px;
+}
+
+.row{
+  padding:15px;
+}
+.rowfirst{
+  padding-top: 40px;
+}
+h1 {
+  overflow: hidden;
+  text-align: center;
+  font-weight: 1;
+  font-style:italic;
+}
+
+h1:before, h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+
+
